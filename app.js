@@ -18,5 +18,5 @@ const search  = document.querySelector('input')
 weatherform.addEventListener('submit', (e) => {
     e.preventDefault()
     const location = search.value
-    console.log('Testing'+ ' ' + location)
+    console.log('Testing'+ ' ' +  location)
 })
