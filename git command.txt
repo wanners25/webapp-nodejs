@@ -1,3 +1,11 @@
 git status - initially shows all untracked files
 git add .  - will add all files and set them ready for commit
 git commit -m 'setup app for HEROKU'
+
+Note :- If the changes are not reflected in GITHUB , it might be due to missing connection between Github with Application due to shut down or logoff
+In such case give Push command one more time - 
+
+git push -u origin master
+
+
+https://wanners25-weather-app.herokuapp.com/
